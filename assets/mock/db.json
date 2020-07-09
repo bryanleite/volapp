@@ -1,0 +1,278 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "will.smith",
+      "name": "Will Smith",
+      "email": "will@gmail.com.br",
+      "active": true,
+      "profiles": [
+        {
+          "id": "1",
+          "name": "Administrador",
+          "active": true,
+          "authorities": [
+            {
+              "id": "1",
+              "authorityGroup": "HOME",
+              "name": "home"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Gestor",
+          "active": true,
+          "authorities": [
+            {
+              "id": "1",
+              "authorityGroup": "HOME",
+              "name": "HOME"
+            }
+          ]
+        },
+        {
+          "name": "Leozika",
+          "active": true,
+          "authorities": [
+            {
+              "id": "1",
+              "authorityGroup": "HOME",
+              "name": "HOME"
+            },
+            {
+              "id": "2",
+              "authorityGroup": "PROFILE",
+              "name": "PROFILE_VIEW"
+            },
+            {
+              "id": "3",
+              "authorityGroup": "PROFILE",
+              "name": "PROFILE_EDIT"
+            },
+            {
+              "id": "4",
+              "authorityGroup": "PROFILE",
+              "name": "PROFILE_REMOVE"
+            },
+            {
+              "id": "5",
+              "authorityGroup": "PROFILE",
+              "name": "PROFILE_ADD"
+            },
+            {
+              "id": "6",
+              "authorityGroup": "USER",
+              "name": "USER_VIEW"
+            },
+            {
+              "id": "7",
+              "authorityGroup": "USER",
+              "name": "USER_EDIT"
+            },
+            {
+              "id": "8",
+              "authorityGroup": "USER",
+              "name": "USER_REMOVE"
+            },
+            {
+              "id": "9",
+              "authorityGroup": "USER",
+              "name": "USER_ADD"
+            }
+          ],
+          "id": "od~yx6v"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "1",
+      "name": "Administrador",
+      "active": true,
+      "authorities": [
+        {
+          "id": "1",
+          "authorityGroup": "HOME",
+          "name": "HOME"
+        },
+        {
+          "id": "2",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_VIEW"
+        },
+        {
+          "id": "3",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_EDIT"
+        },
+        {
+          "id": "4",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_REMOVE"
+        },
+        {
+          "id": "5",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_ADD"
+        },
+        {
+          "id": "6",
+          "authorityGroup": "USER",
+          "name": "USER_VIEW"
+        },
+        {
+          "id": "7",
+          "authorityGroup": "USER",
+          "name": "USER_EDIT"
+        },
+        {
+          "id": "9",
+          "authorityGroup": "USER",
+          "name": "USER_ADD"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Gestor",
+      "active": true,
+      "authorities": [
+        {
+          "id": "1",
+          "authorityGroup": "HOME",
+          "name": "HOME"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Empregado",
+      "active": true,
+      "authorities": [
+        {
+          "id": "1",
+          "authorityGroup": "HOME",
+          "name": "HOME"
+        }
+      ]
+    },
+    {
+      "name": "Leozika",
+      "active": true,
+      "authorities": [
+        {
+          "id": "1",
+          "authorityGroup": "HOME",
+          "name": "HOME"
+        },
+        {
+          "id": "2",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_VIEW"
+        },
+        {
+          "id": "3",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_EDIT"
+        },
+        {
+          "id": "4",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_REMOVE"
+        },
+        {
+          "id": "5",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_ADD"
+        },
+        {
+          "id": "6",
+          "authorityGroup": "USER",
+          "name": "USER_VIEW"
+        },
+        {
+          "id": "7",
+          "authorityGroup": "USER",
+          "name": "USER_EDIT"
+        },
+        {
+          "id": "8",
+          "authorityGroup": "USER",
+          "name": "USER_REMOVE"
+        },
+        {
+          "id": "9",
+          "authorityGroup": "USER",
+          "name": "USER_ADD"
+        }
+      ],
+      "id": "od~yx6v"
+    },
+    {
+      "name": "Todeskaço",
+      "active": false,
+      "authorities": [
+        {
+          "id": "1",
+          "authorityGroup": "HOME",
+          "name": "HOME"
+        },
+        {
+          "id": "3",
+          "authorityGroup": "PROFILE",
+          "name": "PROFILE_EDIT"
+        }
+      ],
+      "id": "QFtmPNc"
+    }
+  ],
+  "authorities": [
+    {
+      "id": "1",
+      "authorityGroup": "HOME",
+      "name": "HOME"
+    },
+    {
+      "id": "2",
+      "authorityGroup": "PROFILE",
+      "name": "PROFILE_VIEW"
+    },
+    {
+      "id": "3",
+      "authorityGroup": "PROFILE",
+      "name": "PROFILE_EDIT"
+    },
+    {
+      "id": "4",
+      "authorityGroup": "PROFILE",
+      "name": "PROFILE_REMOVE"
+    },
+    {
+      "id": "5",
+      "authorityGroup": "PROFILE",
+      "name": "PROFILE_ADD"
+    },
+    {
+      "id": "6",
+      "authorityGroup": "USER",
+      "name": "USER_VIEW"
+    },
+    {
+      "id": "7",
+      "authorityGroup": "USER",
+      "name": "USER_EDIT"
+    },
+    {
+      "id": "8",
+      "authorityGroup": "USER",
+      "name": "USER_REMOVE"
+    },
+    {
+      "id": "9",
+      "authorityGroup": "USER",
+      "name": "USER_ADD"
+    }
+  ]
+}

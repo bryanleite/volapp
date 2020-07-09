@@ -1,0 +1,17 @@
+{
+    "DASHBOARD": "Dashboard pt-BR",
+    "SECURITY": {
+        "LOGIN": {
+            "USERNAME": "Username",
+            "PASSWORD": "Password",
+            "REMEMBER_PASSWORD": "Remember me",
+            "FORGOT_PASSWORD": "Forgot password",
+            "SUBMIT": "Login",
+            "ALL_RIGHTS_RESERVED": "All rights reserved.",
+            "REGISTER_NOW": "register now!",
+            "TITLE": "Admin Angular Ant",
+            "DESCRIPTION": "Admin template using ng-zorro, an Angular framework based on Ant Design.",
+            "OR": "Or"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "HOME": {
+        "TITLE": "Início"
+    },
+    "SECURITY": {
+        "LOGIN": {
+            "USERNAME": "Usuário",
+            "PASSWORD": "Senha",
+            "REMEMBER_PASSWORD": "Lembrar-me",
+            "FORGOT_PASSWORD": "Esqueci minha senha",
+            "SUBMIT": "Entrar",
+            "ALL_RIGHTS_RESERVED": "Todos os direitos reservados.",
+            "REGISTER_NOW": "Cadastrar agora",
+            "TITLE": "Volapp",
+            "DESCRIPTION": "Template admin utilizando ng-zorro, um framwork Angular baseado em Ant Design.",
+            "OR": "Ou",
+            "INVALID_CREDENTIALS": "Credenciais inválidas. Verifique se o usuário e senha estão corretos."
+        },
+        "HTTP": {
+            "UNEXPECTED_ERROR": "Ocorreu um erro inesperado. Por favor, contate o administrador do sistema.",
+            "NOT_FOUND": {
+                "DESCRIPTION": "Desculpe, a página que você está tentando acessar não existe.",
+                "BACK_HOME": "Voltar para a página inicial"
+            }
+        },
+        "ROLES": {
+            "FORBIDDEN": {
+                "DESCRIPTION": "Desculpe, você não tem permissão para acessar esta página.",
+                "BACK_HOME": "Voltar para a página inicial"
+            }
+        },
+        "SIGNUP": {
+            "PASSWORD_INVALID": "As senhas não coincidem",
+            "FIELDS_REQUIRED": "Existem campos obrigatórios (*) não preenchidos!",
+            "REGISTER_SUCCESS": "Cadastro realizado com sucesso!"
+        }
+    },
+    "LAYOUT": {
+        "PREFERENCES": "Preferências",
+        "QUIT": "Sair",
+        "SETTINGS": "Configurações",
+        "PROFILES": "Perfis",
+        "PAGES": "Páginas",
+        "INSTITUTIONS": "Instituições",
+        "USERS": "Usuários",
+        "HOME": "Início",
+        "ROLES": "Permissões",
+        "DASHBOARD": "Dashboard",
+        "VERSION": "Versão: {{ version }}"
+    },
+    "ADMIN_SETTINGS": {
+        "TITLE": "Configurações",
+        "PROFILES": {
+            "TITLE": "Perfis",
+            "REGISTERED_PROFILES": "Perfis Cadastrados",
+            "ADD_PROFILE": "Adicionar Perfil",
+            "NAME": "Nome",
+            "ACTIVE": "Ativo",
+            "ACTIONS": "Ações",
+            "YES": "Sim",
+            "NO": "Não",
+            "SEARCH": "Pesquisar",
+            "SUCCESS_REMOVE": "Perfil removido com sucesso",
+            "QUESTION_REMOVE_TITLE": "Remover Perfil",
+            "QUESTION_REMOVE_CONTENT": "Tem certeza que deseja remover o perfil <strong>{{ profileName }}</strong>?",
+            "PROFILE_DETAIL": {
+                "PROFILE_INFO": "Informações do Perfil",
+                "SUCCESS_SAVE": "Perfil salvo com sucesso",
+                "SUCCESS_UPDATE": "Perfil atualizado com sucesso",
+                "ADD_PROFILE": "Adicionar Perfil",
+                "SAVE": "Salvar",
+                "CANCEL": "Cancelar",
+                "NAME": "Nome",
+                "ACTIVE": "Ativo",
+                "ROLES": "Permissões",
+                "QUESTION_CANCEL_TITLE": "Cancelar Cadastro de Perfil",
+                "QUESTION_CANCEL_CONTENT": "Tem certeza que deseja cancelar o cadastro do perfil?",
+                "AUTHORITIES": {
+                    "HOME": "Início",
+                    "PROFILE": "Perfis",
+                    "PROFILE_VIEW": "Visualizar Perfis",
+                    "PROFILE_EDIT": "Editar Perfis",
+                    "PROFILE_REMOVE": "Remover Perfis",
+                    "PROFILE_ADD": "Adicionar Perfis",
+                    "USER": "Usuários",
+                    "USER_VIEW": "Visualizar Usuáios",
+                    "USER_EDIT": "Editar Usuários",
+                    "USER_REMOVE": "Remover Usuários",
+                    "USER_ADD": "Adicionar Usuários"
+                }
+            }
+        },
+        "USERS": {
+            "TITLE": "Usuários",
+            "REGISTERED_USERS": "Usuários Cadastrados",
+            "ADD_USER": "Adicionar Usuário",
+            "USERNAME": "Nome de Usuário",
+            "NAME": "Nome",
+            "EMAIL": "E-mail",
+            "PROFILES": "Perfis",
+            "ACTIONS": "Ações",
+            "SEARCH": "Pesquisar",
+            "NO": "Não",
+            "YES": "Sim",
+            "USER_DETAIL": {
+                "USER_INFO": "Informações do Usuário",
+                "TITLE": "Detalhes do Usuário",
+                "ACTIVE": "Ativo",
+                "PROFILE": "Perfil",
+                "SAVE": "Salvar",
+                "CANCEL": "Cancelar",
+                "SELECT_PROFILES": "Selecione os perfis...",
+                "USER": "Usuário",
+                "NAME": "Nome",
+                "EMAIL": "E-mail",
+                "QUESTION_CANCEL_TITLE": "Cancelar Cadastro de Usuário",
+                "QUESTION_CANCEL_CONTENT": "Tem certeza que deseja cancelar o cadastro do usuário?",
+                "SUCCESS_UPDATE": "Usuário atualizado com sucesso"
+            }
+        }
+    },
+    "PAGES": {
+        "TITLE": "Páginas",
+        "INSTITUTION": {
+            "TITLE": "Instituição",
+            "SUCCESS_SAVE": "Instituição salva com sucesso!",
+            "SUCCESS_DELETE": "Instituição excluída com sucesso!",
+            "FAIL_DELETE": "Falha ao realiar exclusão da instituição",
+            "ADD": "Adicionar instituição",
+            "REGISTERED_INSTITUTIONS": "Instituições cadastradas",
+            "NAME": "Nome",
+            "DESCRI": "Descrição",
+            "CITY": "Cidade"
+        },
+        "SOCIAL_PROJECT": {
+            "TITLE": "Projeto social",
+            "STATE": "Estado",
+            "CITY": "Cidade",
+            "CEP": "CEP",
+            "STREET": "Rua",
+            "NUMBER": "Número",
+            "SOCIAL_ROJECT": "Projeto social",
+            "NAME": "Nome do projeto social",
+            "NAME_INVALID": "O nome do projeto é inválido!",
+            "DESCRIPTION": "Descrição",
+            "INITIAL_DATE": "Data de início",
+            "INITIAL_DATE_INVALID": "Data de início inválida!",
+            "FINAL_DATE": "Data de encerramento",
+            "NO_PREVISION": "Sem previsão",
+            "DESCRIPTION_INVALID": "A descrição do projeto é inválido!",
+            "FIELDS_REQUIRED": "Existem campos obrigatórios (*) não preenchidos!",
+            "VOLUNTEERS": "Voluntários",
+            "VOLUNTEERS_ACTIVE": "Voluntários",
+            "VOLUNTEERS_INACTIVE": "Possíveis voluntários",
+            "MAKE_MANAGER_CONFIRM": "Deseja tornar este voluntário um Gerente do Projeto?",
+            "REMOVE_VOLUNTEER_CONFIRM": "Deseja realmente remover este voluntário do projeto?",
+            "APPROVE_CANDIDATE_CONFIRM": "Deseja realmente aprovar este candidato?",
+            "CANCEL_INVITE_CONFIRM": "Deseja realmente cancelar o convite?",
+            "INVITE_CONFIRM": "Deseja realmente convidar este voluntário para o projeto?",
+            "INVITED_SUCCESS": "Voluntário convidado com sucesso!",
+            "CANDIDATE_SUCCESS": "Parabéns, sua candidatura foi realizada com sucesso! Seu perfil será avaliado pelos gerentes do projeto social.",
+            "ACCEPT_INVITE_SUCCESS": "Parabéns, agora você é um voluntário neste grande projeto! Os gerentes do projeto entrarão em contato em breve."
+        }
+    },
+    "ALERTS": {
+        "FIELDS_REQUIRED": "Existem campos obrigatórios (*) não preenchidos!",
+        "SAVE_SUCCESS": "Os registros foram gravados com sucesso!"
+    }
+
+}
